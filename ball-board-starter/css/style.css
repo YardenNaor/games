@@ -1,0 +1,65 @@
+body {
+    background-color: black;
+    color: white;
+
+}
+
+.wow{
+    font-size: 30px;
+  height: 300px;
+    background-image:url("../img/ball.png") ;
+    background-repeat: no-repeat;
+    background-size: 100px;
+}
+
+.wow h1{
+font-size: 30%;
+
+}
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 25px;
+    height: auto;
+}
+
+.floor {
+    background-color: gray;
+    cursor: grab;
+}
+
+.wall {
+    background-color: brown;
+}
+
+/* .hidden{
+    display: none;
+} */
+
+.gameover {
+    text-align: center;
+    font-size: xx-large;
+    color: blue;
+ height: 30px;
+ 
+}
+
+.gameover img{
+
+    max-width:50px ;
+}
+
+    /* 1. Colors, cursor, sizing (px, em, rem, max-width, minheight), borders, background-image
+2. Box-sizing, inline-blocks, list-style
+3. Border-radius, box-shadow, text-shadow
+4. :hover, :focus, :active
+5. :nth-child
+If Time Permits, play with:
+6. Position: Absolute, Relative, Fixed (+ use z-index)
+7. Float + clear
+8. Animations: Transition / @Keyframes
+9. Transforms */

@@ -1,0 +1,23 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Mister Balls</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onkeyup="onHandleKey(event)" onload="onInitGame()">
+  <div class="wow">wow
+    <h1>Collect those Balls</h1></div>
+  <h2>You have collected 0 balls:</h2>
+  <h3> balls around you: </h3>
+  <table>
+    <tbody class="board"></tbody>
+  </table>
+
+  <div class="gameover hidden"><button onclick="onInitGame()">RESTART</button><img src="./img/ball.png" alt=""> GAME OVER</div>
+  <script src="js/util.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
